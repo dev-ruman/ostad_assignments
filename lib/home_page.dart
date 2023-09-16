@@ -34,7 +34,7 @@ class Home extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12.0)),
                 child: ListTile(
                   leading: Icon(Icons.handyman_rounded),
-                  title: Text('Tools'),
+                  title: Text('Machine Service'),
                 ),
               ),
               Container(
@@ -46,8 +46,8 @@ class Home extends StatelessWidget {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(12.0)),
                 child: ListTile(
-                  leading: Icon(Icons.sunny_snowing),
-                  title: Text('Sunny'),
+                  leading: Icon(Icons.computer),
+                  title: Text('Computer Service'),
                 ),
               ),
               Container(
@@ -60,7 +60,7 @@ class Home extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12.0)),
                 child: ListTile(
                   leading: Icon(Icons.cabin),
-                  title: Text('Cabin'),
+                  title: Text('Home Service'),
                 ),
               ),
               Container(
@@ -73,7 +73,7 @@ class Home extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12.0)),
                 child: ListTile(
                   leading: Icon(Icons.forest),
-                  title: Text('Forest'),
+                  title: Text('Organic Service'),
                 ),
               ),
               Container(
@@ -86,7 +86,7 @@ class Home extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12.0)),
                 child: ListTile(
                   leading: Icon(Icons.power),
-                  title: Text('Power'),
+                  title: Text('Power Supply'),
                 ),
               ),
               Container(
@@ -99,7 +99,7 @@ class Home extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12.0)),
                 child: ListTile(
                   leading: Icon(Icons.ac_unit),
-                  title: Text('Snow'),
+                  title: Text('Air Conditioning'),
                 ),
               ),
               Container(
@@ -111,8 +111,8 @@ class Home extends StatelessWidget {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(12.0)),
                 child: ListTile(
-                  leading: Icon(Icons.mail),
-                  title: Text('Mail'),
+                  leading: Icon(Icons.mail_outline),
+                  title: Text('Postal Service'),
                 ),
               ),
               Container(
@@ -125,7 +125,7 @@ class Home extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12.0)),
                 child: ListTile(
                   leading: Icon(Icons.data_array),
-                  title: Text('Code'),
+                  title: Text('Data Solutions'),
                 ),
               ),
             ],
