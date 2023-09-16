@@ -6,38 +6,130 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[300],
       appBar: AppBar(
-        title: const Text('Profile'),
+        title: Text('My Shopping List'),
         centerTitle: true,
-        elevation: 3,
-        shadowColor: Colors.black,
-        backgroundColor: Colors.blue,
+        actions: [
+          Icon(Icons.shopping_cart_rounded),
+          SizedBox(
+            width: 12.0,
+          ),
+        ],
+        backgroundColor: Colors.grey[900],
         foregroundColor: Colors.white,
       ),
-      body: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.account_circle_rounded,
-              color: Colors.green,
-              size: 48,
-            ),
-            Text(
-              'Ruman',
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.green,
+      body: SafeArea(
+        child: Expanded(
+          child: ListView(
+            padding: EdgeInsets.all(12.0),
+            children: [
+              Container(
+                padding: EdgeInsets.all(8.0),
+                margin: EdgeInsets.only(
+                  bottom: 12.0,
+                ),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12.0)),
+                child: ListTile(
+                  leading: Icon(Icons.handyman_rounded),
+                  title: Text('Tools'),
+                ),
               ),
-            ),
-            Text(
-              'Flutter Batch 4',
-              style: TextStyle(
-                fontSize: 18,
-                color: Colors.blue,
+              Container(
+                padding: EdgeInsets.all(8.0),
+                margin: EdgeInsets.only(
+                  bottom: 12.0,
+                ),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12.0)),
+                child: ListTile(
+                  leading: Icon(Icons.sunny_snowing),
+                  title: Text('Sunny'),
+                ),
               ),
-            ),
-          ],
+              Container(
+                padding: EdgeInsets.all(8.0),
+                margin: EdgeInsets.only(
+                  bottom: 12.0,
+                ),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12.0)),
+                child: ListTile(
+                  leading: Icon(Icons.cabin),
+                  title: Text('Cabin'),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(8.0),
+                margin: EdgeInsets.only(
+                  bottom: 12.0,
+                ),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12.0)),
+                child: ListTile(
+                  leading: Icon(Icons.forest),
+                  title: Text('Forest'),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(8.0),
+                margin: EdgeInsets.only(
+                  bottom: 12.0,
+                ),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12.0)),
+                child: ListTile(
+                  leading: Icon(Icons.power),
+                  title: Text('Power'),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(8.0),
+                margin: EdgeInsets.only(
+                  bottom: 12.0,
+                ),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12.0)),
+                child: ListTile(
+                  leading: Icon(Icons.ac_unit),
+                  title: Text('Snow'),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(8.0),
+                margin: EdgeInsets.only(
+                  bottom: 12.0,
+                ),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12.0)),
+                child: ListTile(
+                  leading: Icon(Icons.mail),
+                  title: Text('Mail'),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(8.0),
+                margin: EdgeInsets.only(
+                  bottom: 12.0,
+                ),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12.0)),
+                child: ListTile(
+                  leading: Icon(Icons.data_array),
+                  title: Text('Code'),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
