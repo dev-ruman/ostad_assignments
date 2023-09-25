@@ -1,16 +1,5 @@
 # assignment_app
 
-"A new Flutter project."
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_2023-09-26-00-24-32-38_c47748f814c890276aabd9340a4b77b0](https://github.com/dev-ruman/ostad_assignments/assets/90115551/f823eeb4-fdc0-4d82-a05a-2a0c32a93af0)
+![Screenshot_2023-09-26-00-24-29-26_c47748f814c890276aabd9340a4b77b0](https://github.com/dev-ruman/ostad_assignments/assets/90115551/e4cabfb4-3102-438b-aac0-8e660e5558e6)
+![Screenshot_2023-09-26-00-24-22-35_c47748f814c890276aabd9340a4b77b0](https://github.com/dev-ruman/ostad_assignments/assets/90115551/d9053257-af8a-4ec3-84b4-514abcdb4710)
